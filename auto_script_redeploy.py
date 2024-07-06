@@ -17,7 +17,7 @@ def main():
         "docker rm nginx4",
         "docker rmi nginx-service",
         "docker build -t nginx-service .",
-        "docker run -d --name nginx4 -p 213:22 -p 3005:80 nginx-service"
+        "docker run -d --name nginx4 -p 214:22 -p 3004:80 nginx-service"
     ]
 
     for command in commands:
