@@ -11564,7 +11564,16 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+ .bg-gradient-green-to-secondary {
+   background: #28a745;
+   background: linear-gradient(135deg, #28a745 0%, #8dc63f 100%);
+ }
 
+ .text-gradient-green {
+   background: linear-gradient(135deg, #28a745 0%, #8dc63f 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
 .rounded-4 {
   border-radius: 1rem !important;
 }
