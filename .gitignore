@@ -1,0 +1,9 @@
+.env
+# Node.js
+node_modules/
+auto_config_subdomain.py
+# Other patterns
+logs
+*.log
+npm-debug.log*
+...
