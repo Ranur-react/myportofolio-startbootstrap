@@ -11742,4 +11742,33 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+
+}
+.experience-content.text-truncate {
+  overflow: hidden;
+ 
+  max-height: 10em;
+  /* Adjust this value based on the number of lines you want to show initially */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  white-space: normal;
+  /* Number of lines to show */
+  -webkit-box-orient: vertical;
+}
+  
+
+.text-truncate::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  height: 2rem;
+  /* Adjust the height as needed */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}
+
+.show-all {
+  max-height: none;
+  -webkit-line-clamp: unset;
 }
